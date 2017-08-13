@@ -8,7 +8,7 @@ import (
 	"github.com/andreynering/goext/syncext/throttle"
 )
 
-func ExempleThrottle() {
+func ExampleThrottle() {
 	var wg sync.WaitGroup
 	th := throttle.New(2)
 

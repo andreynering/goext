@@ -7,7 +7,7 @@ import (
 	"github.com/andreynering/goext/syncext/throttlegroup"
 )
 
-func ExempleGroup() {
+func ExampleGroup() {
 	g := throttlegroup.WithThrottle(2)
 
 	for i := 0; i < 10; i++ {
